@@ -1,1 +1,1 @@
-https://cryptozombies.io/
+https://cryptozombies.io/en/course
