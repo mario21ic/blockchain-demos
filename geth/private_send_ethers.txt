@@ -1,0 +1,14 @@
+https://chainskills.com/2017/03/10/part-3-setup-the-private-chain-miners/
+
+
+> eth.coinbase
+> eth.accounts
+
+> eth.getBalance(eth.coinbase)
+> eth.getBalance(eth.accounts[1])
+
+> web3.fromWei(eth.getBalance(eth.coinbase))
+
+> miner.stop()
+
+

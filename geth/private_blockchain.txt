@@ -1,0 +1,16 @@
+mkdir -p ~/ChainSkills/miner1
+geth --datadir ~/ChainSkills/miner1 init genesis.json
+
+geth --datadir ~/ChainSkills/miner1 account new
+geth --datadir ~/ChainSkills/miner1 account new
+geth --datadir ~/ChainSkills/miner1 account list
+ls -la ~/ChainSkills/miner1/keystore/
+
+./private_start.sh
+$ geth attach
+#geth attach ipc:.ethereum/geth.ipc
+#geth attach http://127.0.0.1:8043
+> miner.start()
+> miner.stop()
+> exit
+
